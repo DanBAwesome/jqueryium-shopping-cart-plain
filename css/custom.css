@@ -29,6 +29,12 @@ body {
     cursor: move;
 }
 
+@media (min-width: 769px) {
+    #itemList {
+        display: table;
+    }
+}
+
 @media (max-width: 768px) {
     .item > td:not(.quantity) {
         width: 0;
